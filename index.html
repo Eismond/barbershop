@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BarberShop</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+<body class="main-page">
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header class="main-header">
+      <nav>
+        <a href="#" class="main-header__logo">
+          <img src="img/logo-big.png" alt="">
+        </a>
+        <div class="navigation-container">
+          <div class="navigation-content container">
+            <ul class="site-navigation"><li class="site-navigation__item"><a href="#">Информация</a></li>
+              <li class="site-navigation__item"><a href="#">Новости</a></li>
+              <li class="site-navigation__item"><a href="#">Прайс-лист</a></li>
+              <li class="site-navigation__item"><a href="#">Магазин</a></li>
+              <li class="site-navigation__item"><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li class="log-in"><a href="#">Вход</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container main">
+      <!-- FEATURE -->
+      <section class="features">
+        <ul class="feature-list">
+          <li class="feature-item">
+            <h2 class="feature-item__title">Быстро</h2>
+            <div class="feature-item__description">
+                МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+            </div>
+          </li>
+          <li class="feature-item">
+            <h2 class="feature-item__title">Круто</h2>
+            <div class="feature-item__description">
+                ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+            </div>
+          </li>
+          <li class="feature-item">
+              <h2 class="feature-item__title">Дорого</h2>
+              <div class="feature-item__description">
+                  НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+              </div>
+            </li>
+        </ul>
+      </section>
+      <div class="row-block">
+        <!-- NEWS -->
+        <section class="news">
+          <h2 class="news__title heading-section">Новости</h2>
+          <div class="news-item">
+            <a href="#"><h4 class="news-item__title">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+              </h4></a>
+              <div class="news-item__published">18 января</div>
+            </div>
+          <div class="news-item">
+              <a href="#"><h4 class="news-item__title">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+                </h4></a>
+                <div class="news-item__published">18 января</div>
+            </div>
+          <a href="#" class="btn">Все новости</a>
+        </section>
+        <!-- photo gallery -->
+        <section class="photo-gallery">
+          <h2 class="photo-gallery__title heading-section">Фотогалерея</h2>
+            <ul class="gallery-list">
+              <li class="gallery-item"><img src="img/gallery-1.jpg" alt=""></li>
+            </ul>
+            <div class="gallery__control-container">
+                <a href="#"class="btn">назад</a>
+                <a href="#"class="btn">вперед</a>
+            </div>
+          
+        </section>
+      </div>
+      <div class="row-block">
+        <!-- Contact block -->
+        <section class="contact-information">
+          <h2 class="heading-section">Контактная информация</h2>
+          <div class="barber-info">
+             <div class="barber-info__contact">
+                <div class="barber-contact__name">БАРБЕРШОП «БОРОДИНСКИЙ»</div>
+                <div class="barber-contact__address"><adress>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</adress></div>
+                <div class="barber-contact__phone">ТЕЛЕФОН: +7 (495) 666-02-66</div>
+             </div>
+             <div class="barber-info__work-hour">
+               <div class="barber-work-hour__title">Время работы:</div>
+               <div class="barber-work-hour__labor-hours">ПН—ПТ: С 10:00 ДО 22:00
+               </div>
+               <div class="barber-work-hour__weekend-hours">СБ—ВС: С 10:00 ДО 19:00</div>
+             </div>
+             <div class="barber-info__buttons">
+               <a href="#" class="btn show-map">Как проехать</a>
+               <button class="btn call-feedback-form">Обратная связь</button>
+             </div>
+          </div>
+        </section>
+        <!-- BOOKING time -->
+        <section class="booking-section">
+          <h2 class="heading-section">Записаться</h2>          
+          <form action="URL" method="post" class="booking-form">
+              <div class="booking-form__description">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</div>
+            <div class="booking-form__field">
+              <label for="input-date">Дата</label>
+              <input type="date" name="date" id="input-date">
+            </div>
+            <div class="booking-form__field">
+              <label for="input-time">Время</label>
+              <input type="time" name="time" id="input-time">
+            </div>
+            <div class="booking-form__field">
+              <label for="input-name">Ваше имя</label>
+              <input type="text" name="name" id="input-name">
+            </div>
+            <div class="booking-form__field">
+              <label for="input-phone">Ваш Телефон</label>
+              <input type="tel" name="phone" id="input-phone">
+            </div>
+            <input type="submit" class="btn" value="Отправить">
+          </form>
+        </section>
+      </div>
+    </main>
+    
+
+
+
+    <!--<ul class="barbershop-list barbershop-list_small">
+      <li>ddd</li>
+      <li>ddd</li>
+      <li>ddd</li>
+    </ul>
+    <p>
+      <input type="checkbox" id="check1" >
+      <label for="check1">ddddd</label>
+    </p>
+    <p>
+      <input name='test' type="radio" id="radio1" >
+      <label for="radio1">ddddd</label>
+    </p>
+    <p>
+      <input name='test' type="radio" id="radio2" disabled checked>
+      <label for="radio2">ddddd</label>
+    </p>
+    <p>
+      <input type="date" placeholder="Дата">
+    </p>
+
+    <table>
+      <tr>
+        <td>Текст</td>
+        <td>Текст</td>
+      </tr>
+      <tr>
+        <td>Текст</td>
+        <td>Текст</td>
+      </tr>
+    </table>-->
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+        <div class="barber-info">
+            <div class="barber-info__contact">
+               <div class="barber-contact__name">БАРБЕРШОП «БОРОДИНСКИЙ»</div>
+               <div class="barber-contact__address"><adress>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</adress></div>
+               <a href="#" class="how-find-us">Как нас найти</a>
+               <div class="barber-contact__phone">ТЕЛЕФОН: +7 (495) 666-02-66</div>
+            </div>            
+         </div>
+         <div class="social-links">
+           <p>Давайте дружить</p>
+           <ul class="social-links__list">
+             <li><a href="#" class="social-item_vk"></a></li>
+             <li><a href="#" class="social-item_fb"></a></li>
+             <li><a href="#" class="social-item_instagramm"></a></li>
+           </ul>
+         </div>
+         <div class="copyright">
+           <p>Разработано</p>
+            <a href="#" class="btn">Eis</a>
+         </div>
+    </div>
+  </footer>
+</body>
+</html>
